@@ -1,0 +1,308 @@
+/* CSS Document */
+body
+  {
+   background-image: url('resourses/personal.jpg');
+   background-color:#CCCCCC;
+   color: #000000;
+   font-size:87.54;
+   font-family:Arial, 'lusido sans unicode';
+   line-height:1.5;
+   text-align:left;
+  }
+ 
+/*....................................welcome..........................*/
+#welcome1{ float: none; margin:10px 500px 0 500px;}
+#welcome2{ float: none; margin:70px 250px 0 250px;}
+/*..........................login.....................................*/
+#login{
+   margin-left:450px;
+   border: 2px solid #cc3366;
+   padding: 50px 50px 50px 50px; 
+   background: #dddddd;
+   width: 350px;
+   height:350px;
+   border-radius: 25px;
+   margin-top:140px;
+   font-size:15;
+   
+   }
+#login p{width:250px;height:130px;}
+ 
+/*..........................................home.........................*/
+a{
+text-decoration:none;
+}
+a:link, a:visited{
+color:#cc3366;
+ }
+a:hover, a:active{
+background-color:#cc3366;
+color:#FFFFFF;
+}
+
+.body
+  {
+   margin:0 auto;
+   width:70%;
+   clear:both;
+   }
+.mainheader img
+   {
+    width:63%;
+    height:auto;
+    margin:2% 0;
+   }
+.mainheader nav
+   {
+    background-color:#666;
+    height:40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -opera-border-radius: 5px;
+  
+   }
+ .mainheader nav ul
+   {
+    list-style:none;
+    margin: 0 auto;
+   }
+ .mainheader nav ul li
+   {
+    float:left;
+    display:inline;
+   }
+.mainheader nav a:link, .mainheader nav a:visited
+   {
+    color:#FFF;
+    display:inline-block;
+    padding:10px 25px;
+    height:20px;
+   }
+.mainheader nav a:hover, .mainheader nav a:active
+,.mainheader nav .active a:link, .mainheader nav .active a:visited
+   {
+    background-color: #CC3366;
+    text-shadow:none;
+    }
+.mainheader nav li a
+   {
+    border-radius: 10px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   }
+.mainheader ul li.selected a {
+	background: #fda92a;
+	padding: 0.15em 0em 0.15em 0em;
+	color: #CC3366;
+	}
+ .maincontent
+  {
+   line-height:25px;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   
+  }
+.content
+{
+  width:70%;
+  float:left;
+ }
+.topic-content
+{
+  background-color: #FFf;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   padding:3% 5%;
+   margin-top:2%;
+  }
+  .middle-content
+{
+  background-color: #FFf;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   padding:3% 5%;
+   margin-top:2%;
+  }
+  .post-info{
+  font-style:italic;
+  color:#999999;
+  font-size:90%;}
+ .bottom-content
+{
+  background-color:  #FFf;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   margin-top:2%;
+   margin-bottom:5%;
+    padding:3% 5%;
+  }
+.top-sidebar
+  {
+   width:21%;
+   float:left;
+   height:60%;
+   background-color:#FFFFFF;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   padding:2% 3%;
+   margin:2% 0 2% 3%;
+  }
+.top-sidebar img{width:100%;height:100%;}
+.middle-sidebar
+{
+width:21%;
+float:left;
+background-color:#FFFFFF;
+ border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   margin-left:3%;
+   padding:2% 3%;
+   margin-bottom:2%;
+}
+.bottom-sidebar
+{
+width:21%;
+float:left;
+background-color:#FFFFFF;
+ border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   margin-left:3%;
+   padding:2% 3%;
+   margin-bottom:2%;
+}
+.mainfooter
+{
+  width:100%;
+  float:left;
+  border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   background-color:#666;
+   margin-top:2% 0;
+   height:40px;
+  
+}
+.mainfooter p
+{
+width:92%;
+margin:10px auto;
+color:#FFFFFF;
+}
+td {
+    padding: 15px;
+}
+/*..................................My drawing.........................*/
+.draw-content{
+   width:93%;
+   background-color: #FFf;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   padding:3% 5%;
+   margin-top:2%;
+   margin-bottom:3%;}
+.hovergallery img
+   { -webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+     -moz-transform:scale(0.8); /*Mozilla scale version*/ 
+     -o-transform:scale(0.8); /*Opera scale version*/ 
+     -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/ 
+     -moz-transition-duration: 0.5s; /*Mozilla duration version*/
+     -o-transition-duration: 0.5s; /*Opera duration version*/
+      opacity:0.7; /*initial opacity of images*/ margin: 0 5px 5px 0; /*margin between images*/
+	  width:300px;
+	  height:300px;
+	  border:1px #CC3366;
+   } 
+.hovergallery img:hover
+    { -webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/ 
+       -moz-transform:scale(1.1); /*Mozilla scale version*/ 
+       -o-transform:scale(1.1); /*Opera scale version*/
+        box-shadow:0px 0px 30px; /*CSS3 shadow: 30px blurred shadow all around image*/ 
+       -webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/ 
+       -moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/ 
+	   -o-box-shadow:0px 0px 30px gray;
+        opacity: 1;
+		color: #CC3366;
+     }
+/*....................................*/
+@media only screen and (min-width:150px) and (max-width:600px)
+{
+.body
+  {
+ 
+   width:90%;
+   font-size:95%;
+   }
+
+.mainheader img
+   {
+    width:100%;
+   }
+.mainheader nav
+   { 
+    height:160px;
+    }
+ .mainheader nav ul
+   {
+    padding-left:0;
+   }
+ .mainheader nav ul li
+   {
+   width:100%;
+   text-align:center;
+   }
+.mainheader nav a:link, .mainheader nav a:visited
+   {
+    padding:10px 25px;
+    height:20px;
+	display:block;
+   }
+.content
+{
+  width:100%;
+  float:left;
+  margin-top:2%;
+ }
+ .post-info{display:none;}
+.topic-content
+{
+  background-color: #FFf;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   padding:3% 5%;
+   margin-top:2%;
+   margin-bottom:4%
+  }
+ .bottom-content
+{
+   margin-top:3%;
+   
+  }
+  .top-sidebar, .middle-sidebar, .bottom-sidebar
+  {
+   width:94%;
+   padding:2% 3%;
+   margin:2% 0 2% 0%;
+  }
+.mainfooter
+{
+  width:100%;
+  float:left;
+  border-radius: 5px;
+   -moz-border-radius: 5px;
+   -opera-border-radius: 5px;
+   background-color:#666;
+   margin-top:2% 0;
+   height:40px;
+  
+}
+
+}
